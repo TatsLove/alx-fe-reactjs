@@ -27,9 +27,16 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      import React from 'react';
+import WelcomeMessage from './components/WelcomeMessage';
+
+function App() {
+  return (
+    <div>
+      <WelcomeMessage />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
