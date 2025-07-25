@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-company",
+=======
+  "name": "recipe-sharing-app",
+>>>>>>> a6f47e9 (Initialize recipe sharing app with Zustand)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +15,12 @@
   },
   "dependencies": {
     "react": "^19.1.0",
+<<<<<<< HEAD
     "react-dom": "^19.1.0"
+=======
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.6"
+>>>>>>> a6f47e9 (Initialize recipe sharing app with Zustand)
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
