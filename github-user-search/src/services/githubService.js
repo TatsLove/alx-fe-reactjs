@@ -1,8 +1,8 @@
+// src/services/githubService.js
 import axios from 'axios';
 
-const BASE_URL = 'https://api.github.com/users';
-
-export const fetchGitHubUser = async (username) => {
-  const response = await axios.get(`${BASE_URL}/${username}`);
+export async function fetchUserData(username) {
+  const url = `https://api.github.com/users/${username}`;
+  const response = await axios.get(url);
   return response.data;
-};
+}
