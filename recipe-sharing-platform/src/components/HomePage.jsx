@@ -56,3 +56,25 @@ import { Link } from "react-router-dom";
     {/* Recipe card content */}
   </div>
 </Link>
+import { Link } from "react-router-dom";
+
+function HomePage() {
+  // existing recipe cards here...
+  return (
+    <div className="p-6">
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-3xl font-bold">Recipe Sharing Platform</h1>
+        <Link
+          to="/add-recipe"
+          className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition"
+        >
+          Add Recipe
+        </Link>
+      </div>
+
+      {/* your recipe grid */}
+    </div>
+  );
+}
+
+export default HomePage;
