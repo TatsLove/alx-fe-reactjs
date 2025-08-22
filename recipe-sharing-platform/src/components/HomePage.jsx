@@ -48,3 +48,11 @@ function HomePage() {
 }
 
 export default HomePage;
+import { Link } from "react-router-dom";
+
+// Inside your map loop:
+<Link to={`/recipe/${recipe.id}`}>
+  <div className="cursor-pointer hover:scale-105 transition-transform duration-200">
+    {/* Recipe card content */}
+  </div>
+</Link>
